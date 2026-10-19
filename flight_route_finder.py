@@ -42,7 +42,7 @@ flights = {
     "Islamabad": [("Lahore", 40), ("Karachi", 90)],
     "Lahore": [("Karachi", 50), ("Peshawar", 30)],
     "Karachi": [("Quetta", 60)],
-    "Peshawar": [("Quetta", 70)],
+    "Peshawar": [("Quetta", 80)],
     "Quetta": [],
 }
 
