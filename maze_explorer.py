@@ -22,13 +22,14 @@ def dfs_can_reach(maze, start, exit_room):
 
 
 maze = {
-    "Entrance": ["Hall1", "Hall2"],
+   "Entrance": ["Hall1", "Hall2"],
     "Hall1": ["Room1"],
     "Hall2": ["Room2", "Trap"],
     "Room1": [],
     "Room2": ["Exit"],
     "Trap": [],
     "Exit": [],
+    "SecretRoom": []
 }
 
 result = dfs_can_reach(maze, "Entrance", "Exit")
